@@ -1,0 +1,246 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layoutVisor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textVisor"
+            android:text="@string/txtVisor"
+            android:gravity="right"
+            android:textColor="#FFF"
+            android:background="#778899"
+            android:textSize="@dimen/size_display_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutOne"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/clear"
+            android:id="@+id/buttonClear"
+            android:layout_weight="1"
+            style="@style/estiloBotoesOutros" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/most_mini"
+            android:id="@+id/buttonNegative"
+            android:layout_weight="1"
+            style="@style/estiloBotoesOutros" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/pocente"
+            android:id="@+id/buttonPocente"
+            android:layout_weight="1"
+            style="@style/estiloBotoesOutros" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/dividi"
+            android:id="@+id/buttonDividi"
+            android:layout_weight="1"
+            style="@style/estiloBotoesOperacoes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButton1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/seven"
+            android:id="@+id/buttonSeven"
+            android:layout_weight="1"
+            style="@style/estiloBotoesNumero" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/eigther"
+            android:id="@+id/buttonEigther"
+            android:layout_weight="1"
+            style="@style/estiloBotoesNumero" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/nine"
+            android:id="@+id/buttonNine"
+            android:layout_weight="1"
+            style="@style/estiloBotoesNumero" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/multiplic"
+            android:id="@+id/buttonMultiplic"
+            android:layout_weight="1"
+            style="@style/estiloBotoesOperacoes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButton2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/four"
+            android:id="@+id/buttonFour"
+            android:layout_weight="1"
+            style="@style/estiloBotoesNumero" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/five"
+            android:id="@+id/buttonFive"
+            android:layout_weight="1"
+            style="@style/estiloBotoesNumero" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/sixe"
+            android:id="@+id/buttonSixe"
+            android:layout_weight="1"
+            style="@style/estiloBotoesNumero" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/subtrair"
+            android:id="@+id/buttonSubtrair"
+            android:layout_weight="1"
+            style="@style/estiloBotoesOperacoes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButton3"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/one"
+            android:id="@+id/buttonOne"
+            android:layout_weight="1"
+            style="@style/estiloBotoesNumero" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/two"
+            android:id="@+id/buttonTwo"
+            android:layout_weight="1"
+            style="@style/estiloBotoesNumero" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/tree"
+            android:id="@+id/buttonTree"
+            android:layout_weight="1"
+            style="@style/estiloBotoesNumero" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/adition"
+            android:id="@+id/buttonAdition"
+            android:layout_weight="1"
+            style="@style/estiloBotoesOperacoes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButton4"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/info"
+            android:id="@+id/buttonInfo"
+            android:layout_weight="1"
+            style="@style/estiloBotoesOutros" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/zero"
+            android:id="@+id/buttonZero"
+            android:layout_weight="1"
+            style="@style/estiloBotoesNumero" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/decimal"
+            android:id="@+id/buttonDecimal"
+            android:layout_weight="1"
+            style="@style/estiloBotoesOutros" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_button_text"
+            android:text="@string/igual"
+            android:id="@+id/buttonIgual"
+            android:layout_weight="1"
+            style="@style/estiloBotoesOperacoes" />
+    </LinearLayout>
+
+</LinearLayout>
